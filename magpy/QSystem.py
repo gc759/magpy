@@ -1,7 +1,7 @@
 import scipy.integrate
 
-from .HOp import HOp
-from .methods import liouvillian, commutator, vec, unvec
+from HOp import HOp
+from methods import liouvillian, commutator, vec, unvec
 
 class QSystem:
     """
