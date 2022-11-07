@@ -141,3 +141,8 @@ class HOp:
 
     def is_hermitian(self):
         return np.array_equal(self.data.conj().T, self.data)
+
+    @staticmethod
+    def dictionary(self):
+        def identity(*args): return 1
+        return {identity: self}
